@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>point.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>大学と駅の距離</name>
+		<open>1</open>
+		<Placemark>
+			<name>豊田駅</name>
+			<description><![CDATA[<img src="http://ord.yahoo.co.jp/o/image/_ylt=A2RCL5q8fVpX4TcAiw.U3uV7;_ylu=X3oDMTAyN3Vldmc1BDAD/SIG=13l85j92k/EXP=1465634620/**https%3a/upload.wikimedia.org/wikipedia/commons/thumb/0/07/Toyoda-Sta-N.JPG/250px-Toyoda-Sta-N.JPG"/>]]></description>
+			<LookAt>
+				<longitude>139.3821919721501</longitude>
+				<latitude>35.66086446799724</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2818269280215341</heading>
+				<tilt>44.99493929562592</tilt>
+				<range>815.0846053617441</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.3814908000539,35.65952180679128,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>首都大学東京</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/SfH7zOpMEM37hFyNRI-JZIFMs9CWQrvxZjUfz9RLp47iRHUqLA0nrs1Hdse5kyvqxYxhqIDlruy2LZGhX_DeE8OG8B5wAg2JejXcgGzEGKGcCzzrtSiuRCvXkJ-XNligIXuYTBEyNKemSJsPaJndH3ove2EQxypqs8K3UuBwNsJXDth2GNEUjYFgTOpvvZp2LAFJo4Z0cXoWSsFGVxfLk2HgOBLn0umIVnsO5EgKFHKF9Y1UI1zZQVpEJy7_N_RKt5T7iRo1DrfMkBueqL6Bg-rLvphP7C3U99bJOnP3rgVeZesuHrsr0WwN7aethdU43tzuA1dZAe4yXb57tcJC9LISLKCeUGJvRymsywN664K1ckJKmCp5pudbTT7YHoB1p2iRdbQk1vDttK7_hIeJLcQZ9QGW0RRwBBz46kiQtzo1opY6qrMABmggrp0dxtXJg2usUEuJHPZkjcF_SdwneL6y3RxkbrgoR70X-ZH0iweSUNaTsuU9y9QCb2zr_yLkLiClRLN57wYq8zitVEw6hU8vg2kzkBdve0eIH83pv0mmhScrC4_J84cg4NOcYfu2LEeV-hvCB99WQBtuLOlKHd-2AUKfRNM=w1704-h1278-no"/>]]></description>
+			<LookAt>
+				<longitude>139.3678639439316</longitude>
+				<latitude>35.66107071126253</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2901794444941351</heading>
+				<tilt>44.9931493816861</tilt>
+				<range>491.8140583871072</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.3669444444444,35.66134459813273,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
